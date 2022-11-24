@@ -1,0 +1,42 @@
+.card {
+  background-color: #2e3440;
+  padding: 0.5em;
+  border-radius: 1em;
+  margin: 2em;
+  color: #eceff4;
+}
+
+.card-body {
+  padding: 0 2rem;
+  width: 50vw;
+  margin: 0.5em 0.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.table > thead > tr > {
+  display: flex;
+}
+
+.row,
+table > thead > tr {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding:8px 20px;
+}
+.city {
+  font-size: 2rem;
+  margin: 1em 1em 0 1em;
+}
+
+.row:hover {
+  transition: 0.3s;
+  background-color: #3b4252;
+  border-radius: 5px;
+}
+
+th,
+td {
+  padding: 0, 0.1em;
+}
